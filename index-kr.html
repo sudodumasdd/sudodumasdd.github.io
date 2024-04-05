@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Naten</title>
+    </head>
+    <body>
+        <div id="content-kr">
+            <div id="topbar">
+                <p>
+                    <span class="left"><a href="index.html">Naten Version 1.0</a> | <a href="changelog.html">Changelog</a> | <a href="mailto:teker@cock.li">E-Mail</a></span>
+                    <span class="right"><a href="index-sh.html">𐑖𐑱𐑝𐑾𐑯</a></span>
+                </p>
+            </div>
+            <div id="header">
+                <h1 class="mediaape">나텐</h1>
+                <img src="img/monkey-spinning-holding-hands.gif" alt="Monkeys spinning and holding hands" class="theImage">
+                <p class="quote" id="quote"></p>
+            </div>
+            <p>모두를 위한 무료 교육용 게임을 제공하는 나텐에 오신 것을 환영합니다!</p>
+            <div id="games">
+                <h2>Games</h2>
+                <h3>HTML5</h3>
+                <li>
+                    <ul>- <a href="edu/2048/">2048</a></ul>
+                    <ul>- <a href="edu/asteroids/">소행성</a></ul>
+                    <ul>- <a href="edu/bitlife/">PC 생활</a></ul>
+                    <ul>- <a href="edu/cookie/">쿠키 클리커</a></ul>
+                    <ul>- <a href="edu/cy/">Cy's HTML5 RPG</a></ul>
+                    <ul>- <a href="edu/dino/">구글 크롬 공룡</a></ul>
+                    <ul>- <a href="edu/eaglercraft/">광산 공예</a></ul>
+                    <ul>- <a href="edu/flappybird/">플래피 버드</a></ul>
+                    <ul>- <a href="edu/geometrydash/">지오메트리 대시</a></ul>
+                    <ul>- <a href="edu/hexchess/">육각 체스</a></ul>
+                    <ul>- <a href="edu/hl/">반감기 1</a></ul>
+                    <ul>- <a href="edu/konnekt/">연결</a></ul>
+                    <ul>- <a href="edu/maze3d/">미로 3D</a></ul>
+                    <ul>- <a href="edu/metroidvania/">메트로배니아</a></ul>
+                    <ul>- <a href="edu/monkeymart/">몽키 마트</a></ul>
+                    <ul>- <a href="edu/ovo/">OvO</a></ul>
+                    <ul>- <a href="edu/pacman/">팩맨</a></ul>
+                    <ul>- <a href="edu/particle-clicker/">파티클 클리커</a></ul>
+                    <ul>- <a href="edu/quake/">지진</a></ul>
+                    <ul>- <a href="edu/slope/">경사</a></ul>
+                    <ul>- <a href="edu/slope2/">경사 2</a></ul>
+                    <ul>- <a href="edu/sm64/">슈퍼 마리오 64</a></ul>
+                    <ul>- <a href="edu/tetris/">테트리스</a></ul>
+                </li>
+                <h3>Adobe Flash</h3>
+                <li>
+                    <ul>- <a href="edu/fancy-pants/">팬시 팬츠</a></ul>
+                    <ul>- <a href="edu/fbandwg/">불 소년과 물 소녀</a></ul>
+                    <ul>- <a href="edu/papa/burgeria/">Papa's Burgeria</a></ul>
+                    <ul>- <a href="edu/papa/freezeria/">Papa's Freezeria</a></ul>
+                    <ul>- <a href="edu/papa/pancakeria/">Papa's Pancakeria</a></ul>
+                    <ul>- <a href="edu/papa/pizzeria/">Papa's Pizzeria</a></ul>
+                    <ul>- <a href="edu/portal/">포털</a></ul>
+                    <ul>- <a href="edu/red-ball/">레드 발</a></ul>
+                    <ul>- <a href="edu/stick-rpg/">스틱 RPG</a></ul>
+                </li>
+            </div>
+        </div>
+        <script>
+            const quotes = ['In the midsts of "It\'s so over," we find glimpses of "We\'re so back"', 'Fun Fact: 2019 was 5 years ago!', 'Blame John!'];
+
+            function quoteSystem() {
+                var funnyNumber = Math.floor(Math.random() * quotes.length);
+                $('#quote').html(quotes[funnyNumber]);
+            }
+
+            quoteSystem();
+        </script>
+    </body>
+</html>

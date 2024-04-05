@@ -1,8 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+Devanagari:wght@100..900&family=Noto+Sans+Hebrew:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Shavian&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13.5pt;
     background-color: #1f1f1f;
     color: #ffffff;
 }
 
+#content-mn {
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+#content-sh {
+    font-family: "Noto Sans Shavian", sans-serif;
+}
+
+#content-kr {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+#content-jp {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+#content-de {
+    font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+#content-ar {
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+
 #header {
     text-align: center;
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#header {
+    margin: auto;
+    width: 50%;
+}
+
+.mediaape {
+    color: #e686ef;
+    font-size: 48pt;
+}
+
+.theImage {
+    width: 500px;
+    height: 400px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+a {
+    color: #e676ef;
 }

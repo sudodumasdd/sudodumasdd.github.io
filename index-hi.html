@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>नटैङ</title>
+    </head>
+    <body>
+        <div id="content-de">
+            <div id="topbar">
+                <p>
+                    <span class="left"><a href="index.html">Naten Version 1.0</a> | <a href="changelog.html">Changelog</a> | <a href="mailto:teker@cock.li">E-Mail</a></span>
+                    <span class="right"><a href="index-sh.html">𐑖𐑱𐑝𐑾𐑯</a></span>
+                </p>
+            </div>
+            <div id="header">
+                <h1 class="mediaape">नटैङ</h1>
+                <img src="img/monkey-spinning-holding-hands.gif" alt="Monkeys spinning and holding hands" class="theImage">
+                <p class="quote" id="quote"></p>
+            </div>
+            <p>नैटैङ में आपका स्वागत है, हम सभी के लिए निःशुल्क और शैक्षणिक गेम होस्ट करते हैं!</p>
+            <div id="games">
+                <h2>Games</h2>
+                <h3>HTML5</h3>
+                <li>
+                    <ul>- <a href="edu/2048/">2048</a></ul>
+                    <ul>- <a href="edu/asteroids/">क्षुद्रग्रह</a></ul>
+                    <ul>- <a href="edu/bitlife/">PC लाइफ</a></ul>
+                    <ul>- <a href="edu/cookie/">कुकी क्लिकर</a></ul>
+                    <ul>- <a href="edu/cy/">Cy's HTML5 RPG</a></ul>
+                    <ul>- <a href="edu/dino/">गूगल क्रोम डायनासोर</a></ul>
+                    <ul>- <a href="edu/eaglercraft/">माइनक्राफ्ट</a></ul>
+                    <ul>- <a href="edu/flappybird/">फ्लैपी चिड़ियां</a></ul>
+                    <ul>- <a href="edu/geometrydash/">ज्योमेट्री डैश</a></ul>
+                    <ul>- <a href="edu/hexchess/">षट्कोणीय शतरंज</a></ul>
+                    <ul>- <a href="edu/hl/">अर्ध-जीवन 1</a></ul>
+                    <ul>- <a href="edu/konnekt/">जोड़ना</a></ul>
+                    <ul>- <a href="edu/maze3d/">भूलभुलैया 3D</a></ul>
+                    <ul>- <a href="edu/metroidvania/">मेतरोइड वाणीउ</a></ul>
+                    <ul>- <a href="edu/monkeymart/">बंदर मार्ट</a></ul>
+                    <ul>- <a href="edu/ovo/">OvO</a></ul>
+                    <ul>- <a href="edu/pacman/">Pacman</a></ul>
+                    <ul>- <a href="edu/particle-clicker/">कण क्लिकर</a></ul>
+                    <ul>- <a href="edu/quake/">भूकंप</a></ul>
+                    <ul>- <a href="edu/slope/">ढलान</a></ul>
+                    <ul>- <a href="edu/slope2/">ढलान 2</a></ul>
+                    <ul>- <a href="edu/sm64/">सुपर मारियो 64</a></ul>
+                    <ul>- <a href="edu/tetris/">टेट्रिस</a></ul>
+                </li>
+                <h3>Adobe Flash</h3>
+                <li>
+                    <ul>- <a href="edu/fancy-pants/">रोचक पतलून</a></ul>
+                    <ul>- <a href="edu/fbandwg/">फ़ायरबॉय और वॉटरगर्ल</a></ul>
+                    <ul>- <a href="edu/papa/burgeria/">Papa's Burgeria</a></ul>
+                    <ul>- <a href="edu/papa/freezeria/">Papa's Freezeria</a></ul>
+                    <ul>- <a href="edu/papa/pancakeria/">Papa's Pancakeria</a></ul>
+                    <ul>- <a href="edu/papa/pizzeria/">Papa's Pizzeria</a></ul>
+                    <ul>- <a href="edu/portal/">पोर्टल फ्लैश</a></ul>
+                    <ul>- <a href="edu/red-ball/">रेड बॉल</a></ul>
+                    <ul>- <a href="edu/stick-rpg/">चिपकना RPG</a></ul>
+                </li>
+            </div>
+        </div>
+        <script>
+            const quotes = ['In the midsts of "It\'s so over," we find glimpses of "We\'re so back"', 'Fun Fact: 2019 was 5 years ago!', 'Blame John!'];
+
+            function quoteSystem() {
+                var funnyNumber = Math.floor(Math.random() * quotes.length);
+                $('#quote').html(quotes[funnyNumber]);
+            }
+
+            quoteSystem();
+        </script>
+    </body>
+</html>
